@@ -1,6 +1,6 @@
 # Nowy Żmigród Dragon Trail · mapa tras
 
-Interaktywna mapa tras 30k i 10k: MapLibre GL JS 6, wektorowy podkład OpenFreeMap, ortofotomapa GUGiK, model terenu 3D i zsynchronizowany z mapą profil wysokości. Aplikacja statyczna, bez backendu, kont użytkowników i kluczy API.
+Interaktywna mapa tras 30k i 10k: MapLibre GL JS 6, wektorowy podkład OpenFreeMap, ortofotomapa GUGiK, model terenu 3D i zsynchronizowany z mapą profil wysokości. Aplikacja statyczna, bez backendu, kont użytkowników i kluczy API. Przy braku WebGL2 automatycznie działa mapa 2D Leaflet z kaflami OpenStreetMap; profile, filtry i GPX pozostają dostępne.
 
 ## Uruchomienie
 
@@ -46,4 +46,4 @@ Zewnętrzne usługi otrzymują żądania mapy (adres IP i obszar oglądania). Ni
 
 ## Publikacja
 
-GitHub Actions buduje i publikuje `main` na GitHub Pages: https://methyl.github.io/dragon-trail-map/. W ustawieniach repo → Pages wybierz Source: GitHub Actions. Repo pozostaje prywatne, natomiast opublikowana mapa i dane GPX są publicznie dostępne. Publikacja wymaga planu GitHub obsługującego Pages dla prywatnego repo. `base` jest ustawione na `/dragon-trail-map/`.
+GitHub Actions buduje i publikuje `main` na GitHub Pages: https://methyl.github.io/dragon-trail-map/. W ustawieniach repo → Pages wybierz Source: GitHub Actions. Repozytorium, opublikowana mapa i dane GPX są publiczne. `base` jest ustawione na `/dragon-trail-map/`.
