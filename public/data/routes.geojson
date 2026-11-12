@@ -7,7 +7,7 @@
         "id": "30k",
         "name": "Trasa 30k",
         "route": "30k",
-        "distanceKm": 33.097235802588074,
+        "distanceKm": 33.090272484676,
         "color": "#0c4935",
         "elevationSource": "Original supplied GPX heights, with Mapzen Terrain Tiles / Skadi DEM on cartographic corrections; reconstructed from final PDF profile. New connectors and sidewalk: bilinear Terrain Tiles Terrarium DEM z15 (2026-11-12); retained vertices keep existing elevations.",
         "geometrySource": "Final approved PDF v10 vector path, inverse Web Mercator map transform",
@@ -811,11 +811,6 @@
             21.522647,
             49.595472,
             295.126
-          ],
-          [
-            21.522519,
-            49.595391,
-            295.013
           ],
           [
             21.52260500143652,
@@ -6066,7 +6061,7 @@
         "id": "10k",
         "name": "Trasa 10k",
         "route": "10k",
-        "distanceKm": 11.777987238269361,
+        "distanceKm": 11.771349744487198,
         "color": "#de6328",
         "elevationSource": "Interpolated from final PDF profile sampled from Mapzen Terrain Tiles / Skadi DEM at 10 m chainage. Not measured GPX heights. New connectors and sidewalk: bilinear Terrain Tiles Terrarium DEM z15 (2026-11-12); retained vertices keep existing elevations.",
         "geometrySource": "Final approved PDF v10 vector path, inverse Web Mercator map transform",
@@ -6870,11 +6865,6 @@
             21.522647,
             49.595472,
             295.126
-          ],
-          [
-            21.522519,
-            49.595391,
-            295.013
           ],
           [
             21.52260200216717,

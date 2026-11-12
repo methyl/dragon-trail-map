@@ -13,25 +13,25 @@
     {
       "route": "30k",
       "oldKm": 32.94438390782738,
-      "newKm": 33.097235802588074,
-      "pointKmDelta": -0.009705556105222612,
+      "newKm": 33.090272484676,
+      "pointKmDelta": -0.01666887401729955,
       "oldJoinIndex": 91,
       "oldResumeIndex": 118,
       "newRetainedPrefixStart": 7,
-      "newRetainedSuffixStart": 160,
-      "newVertices": 1208,
+      "newRetainedSuffixStart": 159,
+      "newVertices": 1207,
       "oldGeometrySha256": "b25166df6a66d735d007c0f3712da21ebee982becca3f8676620669c9f57bcc9"
     },
     {
       "route": "10k",
       "oldKm": 11.624934068354971,
-      "newKm": 11.777987238269361,
-      "pointKmDelta": -0.009504160193253508,
+      "newKm": 11.771349744487198,
+      "pointKmDelta": -0.016141653975417558,
       "oldJoinIndex": 91,
       "oldResumeIndex": 121,
       "newRetainedPrefixStart": 7,
-      "newRetainedSuffixStart": 160,
-      "newVertices": 496,
+      "newRetainedSuffixStart": 159,
+      "newVertices": 495,
       "oldGeometrySha256": "ca7bfac39b1c484a35f752b65d6df67c071efed0aca6bc7a70208684e2f39e83"
     }
   ],
