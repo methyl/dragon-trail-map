@@ -8,7 +8,7 @@ const $=s=>document.querySelector(s);
 const colors={'30k':'#0c4935','10k':'#de6328',food:'#236847',road:'#c33532',issue:'#a86808',start:'#123c2f'};
 let routes,points,roads,alternatives,hiking,selected='30k',samples=[],map,hoverMarker,popup,routeReady=false;
 const status=message=>$('#status').textContent=message;
-const fetchJSON=async url=>{const r=await fetch(url);if(!r.ok)throw Error(`Nie udało się pobrać ${url} (${r.status})`);return r.json();};
+const fetchJSON=async url=>{const r=await fetch(url,{cache:'no-cache'});if(!r.ok)throw Error(`Nie udało się pobrać ${url} (${r.status})`);return r.json();};
 function feature(){return routes.features.find(f=>f.properties.id===selected);}
 function pointApplies(p){return !p.route||p.route==='both'||p.route===selected||(Array.isArray(p.route)&&p.route.includes(selected));}
 function fit(){const f=feature();if(f)map.fitBounds(bounds(f.geometry.coordinates),{padding:55,duration:650,maxZoom:15});}
