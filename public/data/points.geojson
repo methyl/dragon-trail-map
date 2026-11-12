@@ -8,7 +8,7 @@
         "code": "B1",
         "name": "Punkt żywieniowy / Góra Grzywacka",
         "type": "food",
-        "km": 6.584371829142029,
+        "km": 6.576328746687479,
         "route": "30k",
         "source": "Geographic leader anchor from final PDF v10",
         "labelLeaderDrawingIndex": 2
@@ -28,7 +28,7 @@
         "code": "B2",
         "name": "Punkt żywieniowy / Walik",
         "type": "food",
-        "km": 23.226136017991145,
+        "km": 23.49516606400597,
         "route": "30k",
         "source": "Geographic leader anchor from final PDF v10",
         "labelLeaderDrawingIndex": 3
@@ -190,14 +190,14 @@
         "type": "road",
         "km": null,
         "route": "30k",
-        "source": "Geographic leader anchor from final PDF v10",
+        "source": "New recorded route use of DP1895R, verified with OSM road unsigned_ref1895R",
         "labelLeaderDrawingIndex": 12
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.459894199050193,
-          49.58384300090539
+          21.465102309296,
+          49.581177302241
         ]
       }
     },

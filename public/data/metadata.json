@@ -220,5 +220,56 @@
       }
     ],
     "connectorSource": "New Rynek connector digitised from Geoportal orthophoto, not surveyed. Final approximately 140 m of west Mickiewicza sidewalk is cartographic: orthophoto and OSM road axis, approximately 6 m west of axis. West-side use confirmed by user. Remaining stairs and sidewalk coordinates from OSM."
+  },
+  "secondHalfCorrection": {
+    "date": "2026-11-12",
+    "route": "30k",
+    "description": "New recorded second half, Walik annotation and finish at Rynek",
+    "retainedPrefixVertices": 703,
+    "retainedFinishOldIndex": 1190,
+    "newFinishStart": 6315,
+    "oldJoinIndex": 702,
+    "joinFraction": 0.4873740390984953,
+    "newGpxRange": [
+      38,
+      6059
+    ],
+    "walikReplacedGpxRange": [
+      2273,
+      2787
+    ],
+    "oldDistanceKm": 33.0902724846763,
+    "newDistanceKm": 33.52993480038226,
+    "oldStats": {
+      "up": 1293,
+      "down": 1292
+    },
+    "newStats": {
+      "up": 1324,
+      "down": 1323
+    },
+    "oldReplacedStats": {
+      "up": 454,
+      "down": 460
+    },
+    "newReplacedStats": {
+      "up": 483,
+      "down": 488
+    },
+    "heightDatumAdjustmentM": {
+      "start": -6.459020040201779,
+      "end": -2.8214811149371712
+    },
+    "walik": {
+      "method": "user screenshot trace, 15m sampling of Terrain Tiles DEM; DEM end offsets matched to recorded GPX",
+      "demOffsetsM": [
+        3.180972635079968,
+        4.909940063505701
+      ]
+    },
+    "unchanged10k": true,
+    "unchangedAlternatives": true,
+    "sourceTimeAndHealthDataRemoved": true,
+    "oldGeometrySha256": "9d12624c8c1e553fbe5d27dff88f1c54a921c0c7c4f3ebf95f53371dc2f9a437"
   }
 }
