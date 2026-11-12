@@ -1,0 +1,5 @@
+export function distance(a,b){const rad=Math.PI/180;const dLat=(b[1]-a[1])*rad,dLon=(b[0]-a[0])*rad;const h=Math.sin(dLat/2)**2+Math.cos(a[1]*rad)*Math.cos(b[1]*rad)*Math.sin(dLon/2)**2;return 6371*2*Math.atan2(Math.sqrt(h),Math.sqrt(1-h));}
+export function profile(coords){let km=0;return coords.map((c,i)=>{if(i)km+=distance(coords[i-1],c);return {km,ele:Number.isFinite(c[2])?c[2]:null,coord:c};});}
+export function nearestSample(samples,km){return samples.reduce((a,b)=>Math.abs(b.km-km)<Math.abs(a.km-km)?b:a);}
+export function bounds(coords){return coords.reduce((b,c)=>[[Math.min(b[0][0],c[0]),Math.min(b[0][1],c[1])],[Math.max(b[1][0],c[0]),Math.max(b[1][1],c[1])]],[[Infinity,Infinity],[-Infinity,-Infinity]]);}
+export function elevationStats(samples){if(samples.some(p=>p.ele===null))return null;let up=0,down=0,anchor=samples[0].ele;for(const s of samples.slice(1)){const d=s.ele-anchor;if(Math.abs(d)>=3){if(d>0)up+=d;else down-=d;anchor=s.ele;}}return {up:Math.round(up),down:Math.round(down)};}
