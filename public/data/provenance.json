@@ -1,1 +1,3 @@
-{"description": "Przebieg i oznaczenia odtworzone z finalnej mapy PDF z 11 listopada 2026 (wersja 10). Trasy 33,25 km i 11,62 km, wspólny start/meta. Wysokości 30k: profil GPX z korektami DEM. Wysokości 10k: odtworzone z profilu modelu terenu, nie pomiar GPS. Wariant przez łąki jest przybliżony, poza kilometrażem. Odzyskanie z PDF zachowuje geometrię dokumentu, nie stanowi nowego pomiaru terenowego."}
+{
+  "description": "Przebieg i oznaczenia odtworzone z finalnej mapy PDF z 11 listopada 2026 (wersja 10). Trasy 32,94 km i 11,62 km, wspólny start/meta. Wysokości 30k: profil GPX z korektami DEM. Wysokości 10k: odtworzone z profilu modelu terenu, nie pomiar GPS. Wariant przez łąki jest przybliżony, poza kilometrażem. Odzyskanie z PDF zachowuje geometrię dokumentu, nie stanowi nowego pomiaru terenowego. 12 listopada usunięto trzy wskazane nawroty ze śladu 30k (łącznie 301,62 m); pozostały przebieg i trasa 10k bez zmian."
+}

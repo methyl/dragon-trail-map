@@ -101,7 +101,8 @@
         "route": "30k",
         "type": "road",
         "color": "#b33128",
-        "source": "Verified road use in final PDF; visible cartographic corridor, not an independently surveyed road axis"
+        "source": "Verified road use in final PDF; visible cartographic corridor, not an independently surveyed road axis",
+        "correction": "Removed the same Myscowa out-and-back as route 30k; terminates at original junction."
       },
       "geometry": {
         "type": "LineString",
@@ -165,38 +166,6 @@
           [
             21.548941993383337,
             49.53842899537529
-          ],
-          [
-            21.548849000757233,
-            49.5383250000106
-          ],
-          [
-            21.548812001635227,
-            49.538238001332374
-          ],
-          [
-            21.548791995119103,
-            49.5381039963544
-          ],
-          [
-            21.54879701080555,
-            49.537957000600905
-          ],
-          [
-            21.54882079595541,
-            49.53786200266323
-          ],
-          [
-            21.54879701080555,
-            49.537957000600905
-          ],
-          [
-            21.548791995119103,
-            49.5381039963544
-          ],
-          [
-            21.548812001635227,
-            49.538238001332374
           ],
           [
             21.548849000757233,
