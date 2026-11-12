@@ -1,0 +1,365 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "30k-B1",
+        "code": "B1",
+        "name": "Punkt żywieniowy / Góra Grzywacka",
+        "type": "food",
+        "km": 6.798542345058883,
+        "route": "30k",
+        "source": "Geographic leader anchor from final PDF v10",
+        "labelLeaderDrawingIndex": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.531590304836804,
+          49.57371200562034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "30k-B2",
+        "code": "B2",
+        "name": "Punkt żywieniowy / Walik",
+        "type": "food",
+        "km": 23.544420599463166,
+        "route": "30k",
+        "source": "Geographic leader anchor from final PDF v10",
+        "labelLeaderDrawingIndex": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.47095699275992,
+          49.565853000502386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "30k-START",
+        "code": "START",
+        "name": "Start / meta, plac Kościuszki / Rynek",
+        "type": "start",
+        "km": 0,
+        "route": "30k",
+        "source": "Geographic leader anchor from final PDF v10",
+        "labelLeaderDrawingIndex": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.523104990864308,
+          49.603506000506385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "30k-U1",
+        "code": "U1",
+        "name": "Utrudnienie: stan drogi ze Stadionu na Piaskową",
+        "type": "issue",
+        "km": null,
+        "route": "30k",
+        "source": "Geographic leader anchor from final PDF v10",
+        "labelLeaderDrawingIndex": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.519455908592796,
+          49.59971880311151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "30k-U2",
+        "code": "U2",
+        "name": "Utrudnienie: bród – niepewny poziom wody",
+        "type": "issue",
+        "km": null,
+        "route": "30k",
+        "source": "Geographic leader anchor from final PDF v10",
+        "labelLeaderDrawingIndex": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.546943197349933,
+          49.537808398844135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "30k-U3",
+        "code": "U3",
+        "name": "Utrudnienie: ława – nośność i przepustowość",
+        "type": "issue",
+        "km": null,
+        "route": "30k",
+        "source": "Geographic leader anchor from final PDF v10",
+        "labelLeaderDrawingIndex": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.519576909216877,
+          49.603014200538276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "30k-D2",
+        "code": "D2",
+        "name": "DW 992",
+        "type": "road",
+        "km": null,
+        "route": "30k",
+        "source": "Geographic leader anchor from final PDF v10",
+        "labelLeaderDrawingIndex": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.52152229268798,
+          49.5944853051336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "30k-D3",
+        "code": "D3",
+        "name": "DP 1907R",
+        "type": "road",
+        "km": null,
+        "route": "30k",
+        "source": "Geographic leader anchor from final PDF v10",
+        "labelLeaderDrawingIndex": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.551051291961674,
+          49.53987540564363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "30k-D4",
+        "code": "D4",
+        "name": "DW 992",
+        "type": "road",
+        "km": null,
+        "route": "30k",
+        "source": "Geographic leader anchor from final PDF v10",
+        "labelLeaderDrawingIndex": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.51979399509884,
+          49.56035260250394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "30k-D5",
+        "code": "D5",
+        "name": "DP 1905R",
+        "type": "road",
+        "km": null,
+        "route": "30k",
+        "source": "Geographic leader anchor from final PDF v10",
+        "labelLeaderDrawingIndex": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.515932506945134,
+          49.56237779639286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "30k-D8",
+        "code": "D8",
+        "name": "DP 1895R",
+        "type": "road",
+        "km": null,
+        "route": "30k",
+        "source": "Geographic leader anchor from final PDF v10",
+        "labelLeaderDrawingIndex": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.459894199050193,
+          49.58384300090539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "30k-DP1907R",
+        "code": "DP1907R",
+        "name": "DP 1907R",
+        "type": "road",
+        "km": null,
+        "route": "30k",
+        "source": "Geographic leader anchor from final PDF v10",
+        "labelLeaderDrawingIndex": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.54717398640216,
+          49.547840002536155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "10k-START",
+        "code": "START",
+        "name": "Start / meta, plac Kościuszki / Rynek",
+        "type": "start",
+        "km": 0,
+        "route": "10k",
+        "source": "Geographic leader anchor from final PDF v10",
+        "labelLeaderDrawingIndex": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.52310499180996,
+          49.60350599934833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "10k-U1",
+        "code": "U1",
+        "name": "Utrudnienie: stan drogi ze Stadionu na Piaskową",
+        "type": "issue",
+        "km": null,
+        "route": "10k",
+        "source": "Geographic leader anchor from final PDF v10",
+        "labelLeaderDrawingIndex": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.51945590972942,
+          49.59971879903676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "10k-B1",
+        "code": "B1",
+        "name": "Punkt żywieniowy / Góra Grzywacka",
+        "type": "food",
+        "km": 6.6013536597354,
+        "route": "10k",
+        "source": "Geographic leader anchor from final PDF v10",
+        "labelLeaderDrawingIndex": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.53159030124045,
+          49.573712006141335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "10k-D2",
+        "code": "D2",
+        "name": "DW 992",
+        "type": "road",
+        "km": null,
+        "route": "10k",
+        "source": "Geographic leader anchor from final PDF v10",
+        "labelLeaderDrawingIndex": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.521522295831172,
+          49.594485307211194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "10k-Mickiewicza",
+        "code": "Mickiewicza",
+        "name": "DW 992 · Mickiewicza",
+        "type": "road",
+        "km": null,
+        "route": "10k",
+        "source": "Geographic leader anchor from final PDF v10",
+        "labelLeaderDrawingIndex": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.523175999705064,
+          49.602126599726944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "10k-CROSSING",
+        "code": "CROSSING",
+        "name": "Przejście przez jezdnię na chodnik przy liceum",
+        "type": "road",
+        "km": null,
+        "route": "10k",
+        "source": "Geographic leader anchor from final PDF v10",
+        "labelLeaderDrawingIndex": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.523003436873147,
+          49.60074479794762
+        ]
+      }
+    }
+  ]
+}

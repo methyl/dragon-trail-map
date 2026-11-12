@@ -1,0 +1,117 @@
+{
+  "source": {
+    "source_library_id": "libfile_d8feca3989f08191899810fbed7553be",
+    "source_version": 10,
+    "source_sha256": "241eaad2393d2205480accd776d7a0858b0a1a95b5c884ff27f599434aaea874",
+    "pages": [
+      {
+        "route": "30k",
+        "vertices": 1168,
+        "recoveredLengthKm": 33.24599961528182,
+        "referenceLengthKm": 33.2459959590774,
+        "differenceM": 0.003656204420110498,
+        "closureExact": true,
+        "profileSamples": 1168,
+        "mapBboxWsen": [
+          21.4396624139,
+          49.529,
+          21.5843375863,
+          49.613
+        ]
+      },
+      {
+        "route": "10k",
+        "vertices": 443,
+        "recoveredLengthKm": 11.624934068354476,
+        "referenceLengthKm": 11.62493317475408,
+        "differenceM": 0.0008936003954573835,
+        "closureExact": true,
+        "profileSamples": 1164,
+        "mapBboxWsen": [
+          21.489888528539765,
+          49.566377768484806,
+          21.56712747076892,
+          49.611207211456666
+        ]
+      }
+    ]
+  },
+  "mainMap": {
+    "pageMm": [
+      420,
+      297
+    ],
+    "rectMm": [
+      10,
+      30,
+      277,
+      248
+    ],
+    "projection": "Web Mercator y, linear longitude x",
+    "bboxes": {
+      "30k": [
+        21.4396624139,
+        49.529,
+        21.5843375863,
+        49.613
+      ],
+      "10k": [
+        21.489888528539765,
+        49.566377768484806,
+        21.56712747076892,
+        49.611207211456666
+      ]
+    }
+  },
+  "inset": {
+    "bboxWsen": [
+      21.515256633228656,
+      49.6026,
+      21.52974336677135,
+      49.6068
+    ],
+    "bboxEPSG3857": [
+      2395067.4126976156,
+      6377735.499272751,
+      2396680.0684988457,
+      6378456.950552248
+    ],
+    "rectMm": [
+      296,
+      130,
+      114,
+      51
+    ],
+    "imageSource": "GUGiK ortho; imagery acquisition date unknown"
+  },
+  "styles": {
+    "routeWidthMm": 0.9321470937,
+    "roadCasingWidthMm": 2.15,
+    "hikingWidthMm": 0.18,
+    "labelBorderMm": 0.4,
+    "labelFill": "white",
+    "labelText": "black",
+    "leaderWidthMm": 0.38,
+    "colors": {
+      "30k": "#0c4935",
+      "10k": "#de6328"
+    }
+  },
+  "attribution": [
+    "Podkład: OpenTopoMap, CC-BY-SA",
+    "Dane: OpenStreetMap contributors, SRTM",
+    "Render podkładu: MyOSMatic / OCitySMap",
+    "Szlaki: hiking.waymarkedtrails.org / OSM",
+    "Drogi: BDOT10k / GUGiK",
+    "Ortofotomapa: GUGiK",
+    "Profil: GPX / Mapzen Terrain Tiles / Skadi"
+  ],
+  "important": [
+    "Road crossings do not imply marked zebra crossings.",
+    "D7 was explicitly removed.",
+    "The meadow alternative is approximate and excluded from all main distances/profiles.",
+    "All four main start/end coordinates coincide; do not invent separate starts.",
+    "Green hiking overlays are styled annotations, not independent race routes.",
+    "No white outline on road usage or main race paths."
+  ]
+}
