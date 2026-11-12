@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-12",
+  "description": "Rynek start/meta, original Młynówka approach, stadium stairs, west-side Mickiewicza sidewalk to Piaskowa. Other route geometry preserved.",
+  "osmWays": [
+    347772730,
+    818045272,
+    818045273,
+    987454359,
+    987454361
+  ],
+  "elevation": "Terrain Tiles Terrarium z15, bilinear sampled new vertices only",
+  "routes": [
+    {
+      "route": "30k",
+      "oldKm": 32.94438390782738,
+      "newKm": 33.097235802588074,
+      "pointKmDelta": -0.009705556105222612,
+      "oldJoinIndex": 91,
+      "oldResumeIndex": 118,
+      "newRetainedPrefixStart": 7,
+      "newRetainedSuffixStart": 160,
+      "newVertices": 1208,
+      "oldGeometrySha256": "b25166df6a66d735d007c0f3712da21ebee982becca3f8676620669c9f57bcc9"
+    },
+    {
+      "route": "10k",
+      "oldKm": 11.624934068354971,
+      "newKm": 11.777987238269361,
+      "pointKmDelta": -0.009504160193253508,
+      "oldJoinIndex": 91,
+      "oldResumeIndex": 121,
+      "newRetainedPrefixStart": 7,
+      "newRetainedSuffixStart": 160,
+      "newVertices": 496,
+      "oldGeometrySha256": "ca7bfac39b1c484a35f752b65d6df67c071efed0aca6bc7a70208684e2f39e83"
+    }
+  ],
+  "connectorSource": "New Rynek connector digitised from Geoportal orthophoto, not surveyed. Final approximately 140 m of west Mickiewicza sidewalk is cartographic: orthophoto and OSM road axis, approximately 6 m west of axis. West-side use confirmed by user. Remaining stairs and sidewalk coordinates from OSM."
+}

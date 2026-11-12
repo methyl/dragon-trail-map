@@ -8,7 +8,7 @@
         "code": "B1",
         "name": "Punkt żywieniowy / Góra Grzywacka",
         "type": "food",
-        "km": 6.601040703159328,
+        "km": 6.591335147054106,
         "route": "30k",
         "source": "Geographic leader anchor from final PDF v10",
         "labelLeaderDrawingIndex": 2
@@ -28,7 +28,7 @@
         "code": "B2",
         "name": "Punkt żywieniowy / Walik",
         "type": "food",
-        "km": 23.242804892008444,
+        "km": 23.23309933590322,
         "route": "30k",
         "source": "Geographic leader anchor from final PDF v10",
         "labelLeaderDrawingIndex": 3
@@ -46,38 +46,18 @@
       "properties": {
         "id": "30k-START",
         "code": "START",
-        "name": "Start / meta, plac Kościuszki / Rynek",
+        "name": "Start / meta · płyta Rynku",
         "type": "start",
         "km": 0,
         "route": "30k",
-        "source": "Geographic leader anchor from final PDF v10",
+        "source": "User-approved start on Rynek, orthophoto placement",
         "labelLeaderDrawingIndex": 4
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.523104990864308,
-          49.603506000506385
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "30k-U1",
-        "code": "U1",
-        "name": "Utrudnienie: stan drogi ze Stadionu na Piaskową",
-        "type": "issue",
-        "km": null,
-        "route": "30k",
-        "source": "Geographic leader anchor from final PDF v10",
-        "labelLeaderDrawingIndex": 5
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.519455908592796,
-          49.59971880311151
+          21.5237102,
+          49.6045523
         ]
       }
     },
@@ -246,38 +226,18 @@
       "properties": {
         "id": "10k-START",
         "code": "START",
-        "name": "Start / meta, plac Kościuszki / Rynek",
+        "name": "Start / meta · płyta Rynku",
         "type": "start",
         "km": 0,
         "route": "10k",
-        "source": "Geographic leader anchor from final PDF v10",
+        "source": "User-approved start on Rynek, orthophoto placement",
         "labelLeaderDrawingIndex": 2
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.52310499180996,
-          49.60350599934833
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "10k-U1",
-        "code": "U1",
-        "name": "Utrudnienie: stan drogi ze Stadionu na Piaskową",
-        "type": "issue",
-        "km": null,
-        "route": "10k",
-        "source": "Geographic leader anchor from final PDF v10",
-        "labelLeaderDrawingIndex": 3
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.51945590972942,
-          49.59971879903676
+          21.5237102,
+          49.6045523
         ]
       }
     },
@@ -288,7 +248,7 @@
         "code": "B1",
         "name": "Punkt żywieniowy / Góra Grzywacka",
         "type": "food",
-        "km": 6.6013536597354,
+        "km": 6.591849499542146,
         "route": "10k",
         "source": "Geographic leader anchor from final PDF v10",
         "labelLeaderDrawingIndex": 4
@@ -358,6 +318,44 @@
         "coordinates": [
           21.523003436873147,
           49.60074479794762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "30k-Mickiewicza-start",
+        "code": "Mickiewicza",
+        "name": "DW 992 · Mickiewicza, chodnik zachodni",
+        "route": "30k",
+        "type": "road",
+        "km": null,
+        "source": "OSM west sidewalk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5226314,
+          49.5991286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "10k-Mickiewicza-start",
+        "code": "Mickiewicza",
+        "name": "DW 992 · Mickiewicza, chodnik zachodni",
+        "route": "10k",
+        "type": "road",
+        "km": null,
+        "source": "OSM west sidewalk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5226314,
+          49.5991286
         ]
       }
     }
