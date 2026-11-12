@@ -1,6 +1,6 @@
 # Nowy Żmigród Dragon Trail · mapa tras
 
-Interaktywna mapa tras 30k i 10k: MapLibre GL JS 6, wektorowy podkład OpenFreeMap, ortofotomapa GUGiK, model terenu 3D i zsynchronizowany z mapą profil wysokości. Aplikacja statyczna, bez backendu, kont użytkowników i kluczy API. Przy braku WebGL2 automatycznie działa mapa 2D Leaflet z kaflami OpenStreetMap; profile, filtry i GPX pozostają dostępne.
+Interaktywna mapa tras 30k i 10k: MapLibre GL JS 6, domyślny turystyczny podkład OpenTopoMap i szlaki Waymarked Trails, dodatkowy podkład OpenFreeMap, ortofotomapa GUGiK, model terenu 3D i zsynchronizowany z mapą profil wysokości. Aplikacja statyczna, bez backendu, kont użytkowników i kluczy API. Przy braku WebGL2 automatycznie działa mapa 2D Leaflet z tym samym podkładem turystycznym i szlakami; profile, filtry i GPX pozostają dostępne.
 
 ## Uruchomienie
 
@@ -38,6 +38,8 @@ Dane tras i oznaczeń aktualizuj razem. Nie przesuwaj punktów na podstawie same
 
 ## Podkłady i usługi
 
+- OpenTopoMap: rzeźba terenu, poziomice, drogi i ścieżki; © OpenStreetMap, SRTM, OpenTopoMap (CC-BY-SA 3.0), https://opentopomap.org/about.
+- Waymarked Trails: opcjonalna warstwa szlaków pieszych z OpenStreetMap, CC-BY-SA 3.0 DE. Użycie na innych stronach dozwolone przy umiarkowanym ruchu, bez pobierania masowego: https://hiking.waymarkedtrails.org/#help-legal.
 - OpenFreeMap Liberty: wektorowe kafle OpenStreetMap, atrybucja zachowana w mapie.
 - GUGiK: ortofotomapa WMTS, wyłącznie po wybraniu tej warstwy.
 - Mapzen / AWS Open Data Terrain Tiles (Terrarium): model terenu włączany opcją 3D. Publiczna usługa bez gwarancji dostępności; dla większego ruchu warto skonfigurować własnego dostawcę DEM.
