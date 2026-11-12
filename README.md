@@ -1,6 +1,6 @@
 # Nowy Żmigród Dragon Trail · mapa tras
 
-Interaktywna mapa tras 30k i 10k: MapLibre GL JS 6, domyślny turystyczny podkład OpenTopoMap i wektorowe szlaki OpenStreetMap, dodatkowy podkład OpenFreeMap, ortofotomapa GUGiK, model terenu 3D i zsynchronizowany z mapą profil wysokości. Aplikacja statyczna, bez backendu, kont użytkowników i kluczy API. Przy braku WebGL2 automatycznie działa mapa 2D Leaflet z tym samym podkładem turystycznym i szlakami; profile, filtry i GPX pozostają dostępne.
+Interaktywna mapa tras 30k i 10k: MapLibre GL JS 6, domyślny autorsko dostrojony turystyczny styl wektorowy na danych OpenFreeMap i wektorowe szlaki OpenStreetMap, dodatkowy podkład OpenTopoMap, ortofotomapa GUGiK, model terenu 3D i zsynchronizowany z mapą profil wysokości. Aplikacja statyczna, bez backendu, kont użytkowników i kluczy API. Przy braku WebGL2 automatycznie działa mapa 2D Leaflet z tym samym podkładem turystycznym i szlakami; profile, filtry i GPX pozostają dostępne.
 
 ## Uruchomienie
 
@@ -49,3 +49,7 @@ Zewnętrzne usługi otrzymują żądania mapy (adres IP i obszar oglądania). Ni
 ## Publikacja
 
 GitHub Actions buduje i publikuje `main` na GitHub Pages: https://methyl.github.io/dragon-trail-map/. W ustawieniach repo → Pages wybierz Source: GitHub Actions. Repozytorium, opublikowana mapa i dane GPX są publiczne. `base` jest ustawione na `/dragon-trail-map/`.
+
+## Turystyczny styl wektorowy
+
+Domyślny przy WebGL2: wektorowe drogi, lasy, wody, budynki i etykiety pozostają ostre przy zmianie skali i na ekranach Retina. Ścieżki/drogi gruntowe są rysowane od zoom11 zamiast progów14/15.5 w bazowym Liberty; dane źródłowe mogą nadal generalizować drobne obiekty przy oddaleniu. Stonowana zieleń, ciepłe tło, brązowe przerywane ścieżki, polskie nazwy i subtelne cieniowanie terenu. To niezależny styl turystyczny, nie kopia ani zasoby Mapy.com. Nie zawiera wektorowych poziomic; pozostają w opcjonalnym OpenTopoMap. Bez WebGL2 aplikacja używa rastrowego podkładu2D, który ma ograniczoną rozdzielczość. Styl bazuje na otwartym Liberty, licencja: public/licenses/liberty.md.
