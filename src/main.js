@@ -1,5 +1,7 @@
 import * as maplibregl from 'maplibre-gl';
 import './style.css';
+import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url';
+maplibregl.setWorkerUrl(workerUrl);
 import {profile,bounds,nearestSample,elevationStats} from './geo.js';
 let renderer=maplibregl;let fallback=false;let pendingBaseFallback=false;let rasterRecovered=false;
 const $=s=>document.querySelector(s);
