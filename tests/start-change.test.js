@@ -4,17 +4,18 @@ import {readFileSync} from 'node:fs';
 import {profile,distance} from '../src/geo.js';
 const read=f=>JSON.parse(readFileSync(new URL('../public/data/'+f,import.meta.url)));
 const routes=read('routes.geojson').features,report=read('start-correction.json');
+const second=read('second-half-correction.json');
 const originals=JSON.parse(readFileSync(new URL('./fixtures/start-retained-geometry.json',import.meta.url)));
 test('Rynek start/meta, Młynówka prefix and entire previous finish preserved',()=>{
  for(const f of routes){
   const id=f.properties.id,c=f.geometry.coordinates,r=report.routes.find(r=>r.route===id),old=originals[id];
   assert.deepEqual(c[0],c.at(-1));
   assert.deepEqual(c.slice(r.newRetainedPrefixStart,r.newRetainedPrefixStart+85),old.prefix);
-  assert.deepEqual(c.slice(r.newRetainedSuffixStart,r.newRetainedSuffixStart+old.suffix.length),old.suffix);
-  assert.deepEqual(c.slice(r.newRetainedSuffixStart+old.suffix.length,r.newRetainedSuffixStart+old.suffix.length+7),old.extension);
+  if(id!=='30k')assert.deepEqual(c.slice(r.newRetainedSuffixStart,r.newRetainedSuffixStart+old.suffix.length),old.suffix);
+  if(id!=='30k')assert.deepEqual(c.slice(r.newRetainedSuffixStart+old.suffix.length,r.newRetainedSuffixStart+old.suffix.length+7),old.extension);
   assert.ok(c.some(p=>distance(p,[21.5226686,49.6033614])<1e-8),'Stadium stairs missing');
   assert.ok(c.some(p=>distance(p,[21.5233421,49.6031127])<1e-8),'West-side turn missing');
-  assert.ok(Math.abs(profile(c).at(-1).km-r.newKm)<1e-8);
+  assert.ok(Math.abs(profile(c).at(-1).km-(id==='30k'?second.newDistanceKm:r.newKm))<1e-8);
  }
 });
 test('both profiles and GPX match changed routes; stale U1 gone; ława and finish crossing remain',()=>{
