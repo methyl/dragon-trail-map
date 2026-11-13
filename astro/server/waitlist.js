@@ -53,8 +53,8 @@ async function rate(db, key, expiry, limit) {
 export function confirmationMessage(email, confirm, cancel, origin, sender) {
   const confirmURL = `${origin}/potwierdz/?token=${confirm}`;
   const cancelURL = `${origin}/wypisz/?token=${cancel}`;
-  return { from: sender, to: email, subject: 'Potwierdź powiadomienie o zapisach — Dragon Trail',
-    text: `Cześć!\n\nPotwierdź, że chcesz otrzymać jeden e-mail, gdy ruszą zapisy na Nowy Żmigród Dragon Trail 2027:\n${confirmURL}\n\nNa stronie kliknij „Potwierdzam”. Link jest ważny przez 48 godzin.\n\nJeśli to nie Ty podałeś ten adres, zignoruj tę wiadomość. Bez potwierdzenia nie wyślemy powiadomienia o zapisach.\n\nAnuluj zgłoszenie: ${cancelURL}\n\nNowy Żmigród Dragon Trail\nhttps://dragontrail.pl` };
+  return { from: sender, to: email, reply_to: 'lucjan@dragontrail.pl', subject: 'Potwierdź powiadomienie o zapisach — Dragon Trail',
+    text: `Cześć!\n\nPotwierdź, że chcesz otrzymać wiadomość, gdy ruszą zapisy na Nowy Żmigród Dragon Trail 2027:\n${confirmURL}\n\nNa stronie kliknij „Potwierdzam”. Link jest ważny przez 48 godzin.\n\nJeśli to nie Ty podałeś ten adres, zignoruj tę wiadomość. Bez potwierdzenia nie wyślemy powiadomienia o zapisach.\n\nAnuluj zgłoszenie: ${cancelURL}\n\nLucjan Suski\nNowy Żmigród Dragon Trail\nhttps://dragontrail.pl` };
 }
 async function send(env, message) {
   const response = await fetch(`https://api.cloudflare.com/client/v4/accounts/${env.CF_ACCOUNT_ID}/email/sending/send`, {
