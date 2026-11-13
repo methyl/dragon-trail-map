@@ -21,6 +21,7 @@ https://developers.cloudflare.com/email-service/get-started/send-emails/
 https://developers.cloudflare.com/email-service/api/send-emails/rest-api/
 https://developers.cloudflare.com/email-service/platform/pricing/
 https://developers.cloudflare.com/email-service/platform/limits/
+https://developers.cloudflare.com/api/resources/email_sending/methods/send/
 
 ## Bindings / variables / secrets
 
@@ -70,12 +71,13 @@ The eventual send job must select only `status='confirmed' AND notified_at IS NU
 ## Confirmation email template awaiting owner approval
 
 From: approved sender address
+Reply-To: lucjan@dragontrail.pl (REST API field `reply_to`)
 Recipient: only the address submitted in the notification form
 Subject: Potwierdź powiadomienie o zapisach — Dragon Trail
 
 Cześć!
 
-Potwierdź, że chcesz otrzymać jeden e-mail, gdy ruszą zapisy na Nowy Żmigród Dragon Trail 2027:
+Potwierdź, że chcesz otrzymać wiadomość, gdy ruszą zapisy na Nowy Żmigród Dragon Trail 2027:
 [unique confirmation link]
 
 Na stronie kliknij „Potwierdzam”. Link jest ważny przez48 godzin.
@@ -84,6 +86,7 @@ Jeśli to nie Ty podałeś ten adres, zignoruj tę wiadomość. Bez potwierdzeni
 
 Anuluj zgłoszenie: [unique cancellation link]
 
+Lucjan Suski
 Nowy Żmigród Dragon Trail
 https://dragontrail.pl
 
