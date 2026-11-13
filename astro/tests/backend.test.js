@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { DatabaseSync } from 'node:sqlite';
 import { readFileSync } from 'node:fs';
-import { handle, normalizeEmail, digest, CONSENT_TEXT } from '../server/waitlist.js';
+import { handle, normalizeEmail, digest, CONSENT_TEXT, confirmationMessage } from '../server/waitlist.js';
 
 // Real SQLite SQL, with the D1 prepared-statement contract. No real network sends.
 function database() {
@@ -127,4 +127,15 @@ test('retention deletes old pending and notified records, preserves recent confi
   f.db.raw.prepare('UPDATE waitlist_subscribers SET notified_at=?').run(now - 31 * 86400);
   await prune(f.db, now);
   assert.equal(f.db.raw.prepare('SELECT count(*) n FROM waitlist_subscribers').get().n, 0);
+});
+
+
+test('confirmation email uses owner wording, signature and REST reply_to', () => {
+  const message = confirmationMessage('runner@example.com', 'a'.repeat(64), 'b'.repeat(64), 'https://dragontrail.pl', 'powiadomienia@dragontrail.pl');
+  assert.equal(message.reply_to, 'lucjan@dragontrail.pl');
+  assert.equal(message.to, 'runner@example.com');
+  assert.equal(message.from, 'powiadomienia@dragontrail.pl');
+  assert.match(message.text, /chcesz otrzymać wiadomość, gdy ruszą/);
+  assert.doesNotMatch(message.text, /chcesz otrzymać jeden e-mail/);
+  assert.match(message.text, /\n\nLucjan Suski\nNowy Żmigród Dragon Trail\nhttps:\/\/dragontrail.pl$/);
 });
