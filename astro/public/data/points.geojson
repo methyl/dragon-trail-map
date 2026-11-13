@@ -8,7 +8,7 @@
         "code": "B1",
         "name": "Punkt żywieniowy / Góra Grzywacka",
         "type": "food",
-        "km": 6.576328746687479,
+        "km": 6.464182327787606,
         "route": "30k",
         "source": "Geographic leader anchor from final PDF v10",
         "labelLeaderDrawingIndex": 2
@@ -28,7 +28,7 @@
         "code": "B2",
         "name": "Punkt żywieniowy / Walik",
         "type": "food",
-        "km": 23.49516606400597,
+        "km": 23.383019645106103,
         "route": "30k",
         "source": "Geographic leader anchor from final PDF v10",
         "labelLeaderDrawingIndex": 3
@@ -46,18 +46,18 @@
       "properties": {
         "id": "30k-START",
         "code": "START",
-        "name": "Start / meta · płyta Rynku",
+        "name": "Start / meta · Rynek, ulica",
         "type": "start",
         "km": 0,
         "route": "30k",
-        "source": "User-approved start on Rynek, orthophoto placement",
+        "source": "Position indicated by user on map, 13.11.2026",
         "labelLeaderDrawingIndex": 4
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.5237102,
-          49.6045523
+          21.52348175388449,
+          49.60457096440015
         ]
       }
     },
@@ -226,18 +226,18 @@
       "properties": {
         "id": "10k-START",
         "code": "START",
-        "name": "Start / meta · płyta Rynku",
+        "name": "Start / meta · Rynek, ulica",
         "type": "start",
         "km": 0,
         "route": "10k",
-        "source": "User-approved start on Rynek, orthophoto placement",
+        "source": "Position indicated by user on map, 13.11.2026",
         "labelLeaderDrawingIndex": 2
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.5237102,
-          49.6045523
+          21.52348175388449,
+          49.60457096440015
         ]
       }
     },
@@ -248,7 +248,7 @@
         "code": "B1",
         "name": "Punkt żywieniowy / Góra Grzywacka",
         "type": "food",
-        "km": 6.585212005759983,
+        "km": 6.464497100273306,
         "route": "10k",
         "source": "Geographic leader anchor from final PDF v10",
         "labelLeaderDrawingIndex": 4
@@ -324,38 +324,40 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "30k-Mickiewicza-start",
-        "code": "Mickiewicza",
-        "name": "DW 992 · Mickiewicza, chodnik zachodni",
-        "route": "30k",
-        "type": "road",
+        "id": "30k-U1",
+        "code": "U1",
+        "name": "Utrudnienie: stan drogi ze Stadionu na Piaskową",
+        "type": "issue",
         "km": null,
-        "source": "OSM west sidewalk"
+        "route": "30k",
+        "source": "Geographic leader anchor from final PDF v10",
+        "labelLeaderDrawingIndex": 5
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.5226314,
-          49.5991286
+          21.519455908592796,
+          49.59971880311151
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "id": "10k-Mickiewicza-start",
-        "code": "Mickiewicza",
-        "name": "DW 992 · Mickiewicza, chodnik zachodni",
-        "route": "10k",
-        "type": "road",
+        "id": "10k-U1",
+        "code": "U1",
+        "name": "Utrudnienie: stan drogi ze Stadionu na Piaskową",
+        "type": "issue",
         "km": null,
-        "source": "OSM west sidewalk"
+        "route": "10k",
+        "source": "Geographic leader anchor from final PDF v10",
+        "labelLeaderDrawingIndex": 3
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.5226314,
-          49.5991286
+          21.51945590972942,
+          49.59971879903676
         ]
       }
     }

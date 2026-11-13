@@ -271,5 +271,56 @@
     "unchangedAlternatives": true,
     "sourceTimeAndHealthDataRemoved": true,
     "oldGeometrySha256": "9d12624c8c1e553fbe5d27dff88f1c54a921c0c7c4f3ebf95f53371dc2f9a437"
+  },
+  "churchRiverCorrection": {
+    "date": "2026-11-13",
+    "description": "Start/meta on west Rynek street at user annotation; departure north past church, original Młynówka approach. Riverbank main route restored; stairs and west Mickiewicza retained as alternative.",
+    "coordinate": [
+      21.52348175388449,
+      49.60457096440015,
+      307.66400739925336
+    ],
+    "routes": [
+      {
+        "route": "30k",
+        "newKm": 33.3840462235337,
+        "previousKm": 33.52993480038226,
+        "newStats": {
+          "up": 1310,
+          "down": 1308
+        },
+        "coreStart": 111,
+        "coreLength": 6166,
+        "prefixStart": 1,
+        "prefixLength": 84,
+        "riverStart": 85,
+        "riverLength": 26,
+        "riverOriginalRange": [
+          92,
+          117
+        ],
+        "alternateLengthKm": 1.1271644240166638
+      },
+      {
+        "route": "10k",
+        "newKm": 11.624934068355405,
+        "previousKm": 11.7713497444875,
+        "newStats": {
+          "up": 406,
+          "down": 404
+        },
+        "coreStart": 114,
+        "coreLength": 329,
+        "prefixStart": 1,
+        "prefixLength": 84,
+        "riverStart": 85,
+        "riverLength": 29,
+        "riverOriginalRange": [
+          92,
+          120
+        ],
+        "alternateLengthKm": 1.1275325015105415
+      }
+    ]
   }
 }
