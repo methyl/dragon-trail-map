@@ -1,0 +1,6 @@
+---
+import landing from '../content/landing.html?raw';
+import '../styles/landing.css';
+import Signup from '../components/Signup.astro';
+---
+<!doctype html><html lang="pl"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#123c2f"/><meta name="description" content="Nowy Żmigród Dragon Trail. 15 maja 2027. Dwie trasy, dwie wieże i serce Beskidu Niskiego."/><title>Nowy Żmigród Dragon Trail · 15 maja 2027</title></head><body><Fragment set:html={landing}/><Signup/><footer class="site-footer"><span>Nowy Żmigród Dragon Trail · 15 maja 2027</span><a href="mailto:lucjan@dragontrail.pl">lucjan@dragontrail.pl</a><a href="/prywatnosc/">Prywatność</a></footer><script is:inline src="/landing/app.js" defer></script><script is:inline src="/landing/logo.js" defer></script><style is:global>.controls[hidden]{display:none}.site-footer{padding:35px 0;display:flex;gap:20px;justify-content:space-between;flex-wrap:wrap;color:#f5f1e4;font-size:14px}.site-footer a{color:inherit}.hero-nav>div{flex-wrap:wrap}.hero-nav a{white-space:nowrap}@media(max-width:600px){.hero-nav>div{gap:14px}.hero-nav>div a{font-size:12px}.site-footer{padding-inline:18px}}</style></body></html>
