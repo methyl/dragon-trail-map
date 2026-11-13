@@ -1,0 +1,21 @@
+{
+  "name": "dragon-trail",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "build": "astro build",
+    "preview": "astro preview --host 127.0.0.1",
+    "test": "npm run build && node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "maplibre-gl": "^6.18.0",
+    "astro": "^5.16.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "jsdom": "^31.0.0"
+  }
+}

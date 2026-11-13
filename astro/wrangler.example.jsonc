@@ -1,0 +1,24 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "dragon-trail",
+  "pages_build_output_dir": "./dist",
+  "compatibility_date": "2026-11-13",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "dragon-trail-waitlist",
+      "database_id": "REPLACE_WITH_REAL_D1_ID",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "vars": {
+    "PUBLIC_ORIGIN": "https://dragontrail.pl",
+    "WAITLIST_ENABLED": "0",
+    "PUBLIC_SIGNUP_ENABLED": "false",
+    "CF_ACCOUNT_ID": "REPLACE_WITH_REAL_ACCOUNT_ID",
+    "EMAIL_FROM": "powiadomienia@dragontrail.pl"
+  }
+  // Set CF_EMAIL_API_TOKEN and RATE_LIMIT_SECRET via encrypted Pages secrets,
+  // never here. PUBLIC_SIGNUP_ENABLED must also be set in the build environment.
+  // Preview deployments must use separate D1/secrets, or stay disabled.
+}

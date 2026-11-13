@@ -1,0 +1,7 @@
+# Keep test transport mocked. Real values can send real email, including locally.
+PUBLIC_ORIGIN="https://dragontrail.pl"
+WAITLIST_ENABLED="0"
+CF_ACCOUNT_ID=""
+CF_EMAIL_API_TOKEN=""
+EMAIL_FROM="powiadomienia@dragontrail.pl"
+RATE_LIMIT_SECRET=""
