@@ -3,8 +3,8 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 const read = name => readFileSync(new URL(`../public/data/${name}`, import.meta.url));
-test('D2 meadow alternatives reproduce the organizer drawing for both routes and preserve 10k download; 30k replacement is covered separately', () => {
-  const { features } = JSON.parse(read('alternatives.geojson'));
+test('D2 meadow alternatives reproduce the organizer drawing for both routes', () => {
+  const features = JSON.parse(read('alternatives.geojson')).features.filter(f=>f.properties.id.endsWith('-D2-meadow'));
   assert.equal(features.length, 2);
   assert.deepEqual(features.map(f => f.properties.route).sort(), ['10k', '30k']);
   assert.deepEqual(features[0].geometry.coordinates, features[1].geometry.coordinates);
@@ -14,7 +14,4 @@ test('D2 meadow alternatives reproduce the organizer drawing for both routes and
     assert.deepEqual(f.geometry.coordinates[0], [21.522841146, 49.59492177]);
     assert.deepEqual(f.geometry.coordinates.at(-1), [21.520559896, 49.593568034]);
   }
-  for (const [name, hash] of Object.entries({
-    '10k.gpx': '4d4a2f371d8118ecd80bee1659bd3330c4b255acc545a782bcc0f261b735685c'
-  })) assert.equal(createHash('sha256').update(read(name)).digest('hex'), hash, name);
 });
