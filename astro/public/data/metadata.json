@@ -1,0 +1,275 @@
+{
+  "source": {
+    "source_version": 10,
+    "source_sha256": "241eaad2393d2205480accd776d7a0858b0a1a95b5c884ff27f599434aaea874",
+    "pages": [
+      {
+        "route": "30k",
+        "vertices": 1168,
+        "recoveredLengthKm": 33.24599961528182,
+        "referenceLengthKm": 33.2459959590774,
+        "differenceM": 0.003656204420110498,
+        "closureExact": true,
+        "profileSamples": 1168,
+        "mapBboxWsen": [
+          21.4396624139,
+          49.529,
+          21.5843375863,
+          49.613
+        ]
+      },
+      {
+        "route": "10k",
+        "vertices": 443,
+        "recoveredLengthKm": 11.624934068354476,
+        "referenceLengthKm": 11.62493317475408,
+        "differenceM": 0.0008936003954573835,
+        "closureExact": true,
+        "profileSamples": 1164,
+        "mapBboxWsen": [
+          21.489888528539765,
+          49.566377768484806,
+          21.56712747076892,
+          49.611207211456666
+        ]
+      }
+    ],
+    "sourceFile": "Mapa_tras_30k_i_10k_A3.pdf"
+  },
+  "mainMap": {
+    "pageMm": [
+      420,
+      297
+    ],
+    "rectMm": [
+      10,
+      30,
+      277,
+      248
+    ],
+    "projection": "Web Mercator y, linear longitude x",
+    "bboxes": {
+      "30k": [
+        21.4396624139,
+        49.529,
+        21.5843375863,
+        49.613
+      ],
+      "10k": [
+        21.489888528539765,
+        49.566377768484806,
+        21.56712747076892,
+        49.611207211456666
+      ]
+    }
+  },
+  "inset": {
+    "bboxWsen": [
+      21.515256633228656,
+      49.6026,
+      21.52974336677135,
+      49.6068
+    ],
+    "bboxEPSG3857": [
+      2395067.4126976156,
+      6377735.499272751,
+      2396680.0684988457,
+      6378456.950552248
+    ],
+    "rectMm": [
+      296,
+      130,
+      114,
+      51
+    ],
+    "imageSource": "GUGiK ortho; imagery acquisition date unknown"
+  },
+  "styles": {
+    "routeWidthMm": 0.9321470937,
+    "roadCasingWidthMm": 2.15,
+    "hikingWidthMm": 0.18,
+    "labelBorderMm": 0.4,
+    "labelFill": "white",
+    "labelText": "black",
+    "leaderWidthMm": 0.38,
+    "colors": {
+      "30k": "#0c4935",
+      "10k": "#de6328"
+    }
+  },
+  "attribution": [
+    "Podkład: OpenTopoMap, CC-BY-SA",
+    "Dane: OpenStreetMap contributors, SRTM",
+    "Render podkładu: MyOSMatic / OCitySMap",
+    "Szlaki: hiking.waymarkedtrails.org / OSM",
+    "Drogi: BDOT10k / GUGiK",
+    "Ortofotomapa: GUGiK",
+    "Profil: GPX / Mapzen Terrain Tiles / Skadi"
+  ],
+  "important": [
+    "Road crossings do not imply marked zebra crossings.",
+    "D7 was explicitly removed.",
+    "The meadow alternative is approximate and excluded from all main distances/profiles.",
+    "All four main start/end coordinates coincide; do not invent separate starts.",
+    "Green hiking overlays are styled annotations, not independent race routes.",
+    "No white outline on road usage or main race paths."
+  ],
+  "geometryCorrections": {
+    "date": "2026-11-12",
+    "screenshots": [
+      "IMG_2079.png",
+      "IMG_2080.png",
+      "IMG_2081.png"
+    ],
+    "changes": [
+      {
+        "place": "Pod Grzywacką / potok",
+        "oldIndices": [
+          206,
+          209,
+          212
+        ],
+        "junction": [
+          21.514212997063574,
+          49.57408499510331
+        ],
+        "tip": [
+          21.514267591339596,
+          49.57345999409138
+        ],
+        "removedLengthM": 139.23291532837112,
+        "evidence": "Exact reverse sequence exists in original route-10e6112a.gpx and screenshot supplied by user."
+      },
+      {
+        "place": "Grzywacka / B1",
+        "oldIndices": [
+          290,
+          291,
+          292
+        ],
+        "junction": [
+          21.531531008950772,
+          49.5737769941137
+        ],
+        "tip": [
+          21.531536204896042,
+          49.573515004155816
+        ],
+        "removedLengthM": 58.26872657118365,
+        "evidence": "Exact reverse sequence exists in original route-10e6112a.gpx and screenshot supplied by user."
+      },
+      {
+        "place": "Myscowa / Kręcisz",
+        "oldIndices": [
+          536,
+          540,
+          544
+        ],
+        "junction": [
+          21.548849002412634,
+          49.53832499946062
+        ],
+        "tip": [
+          21.5488207932204,
+          49.53786200120244
+        ],
+        "removedLengthM": 104.11406555516933,
+        "evidence": "Exact reverse sequence exists in original route-10e6112a.gpx and screenshot supplied by user."
+      }
+    ],
+    "current30kDistanceKm": 32.94438390782738,
+    "removedVertices": 16,
+    "unchanged10k": true,
+    "sourceGpx": "route-10e6112a.gpx"
+  },
+  "startCorrection": {
+    "date": "2026-11-12",
+    "description": "Rynek start/meta, original Młynówka approach, stadium stairs, west-side Mickiewicza sidewalk to Piaskowa. Other route geometry preserved.",
+    "osmWays": [
+      347772730,
+      818045272,
+      818045273,
+      987454359,
+      987454361
+    ],
+    "elevation": "Terrain Tiles Terrarium z15, bilinear sampled new vertices only",
+    "routes": [
+      {
+        "route": "30k",
+        "oldKm": 32.94438390782738,
+        "newKm": 33.090272484676,
+        "pointKmDelta": -0.01666887401729955,
+        "oldJoinIndex": 91,
+        "oldResumeIndex": 118,
+        "newRetainedPrefixStart": 7,
+        "newRetainedSuffixStart": 159,
+        "newVertices": 1207,
+        "oldGeometrySha256": "b25166df6a66d735d007c0f3712da21ebee982becca3f8676620669c9f57bcc9"
+      },
+      {
+        "route": "10k",
+        "oldKm": 11.624934068354971,
+        "newKm": 11.771349744487198,
+        "pointKmDelta": -0.016141653975417558,
+        "oldJoinIndex": 91,
+        "oldResumeIndex": 121,
+        "newRetainedPrefixStart": 7,
+        "newRetainedSuffixStart": 159,
+        "newVertices": 495,
+        "oldGeometrySha256": "ca7bfac39b1c484a35f752b65d6df67c071efed0aca6bc7a70208684e2f39e83"
+      }
+    ],
+    "connectorSource": "New Rynek connector digitised from Geoportal orthophoto, not surveyed. Final approximately 140 m of west Mickiewicza sidewalk is cartographic: orthophoto and OSM road axis, approximately 6 m west of axis. West-side use confirmed by user. Remaining stairs and sidewalk coordinates from OSM."
+  },
+  "secondHalfCorrection": {
+    "date": "2026-11-12",
+    "route": "30k",
+    "description": "New recorded second half, Walik annotation and finish at Rynek",
+    "retainedPrefixVertices": 703,
+    "retainedFinishOldIndex": 1190,
+    "newFinishStart": 6315,
+    "oldJoinIndex": 702,
+    "joinFraction": 0.4873740390984953,
+    "newGpxRange": [
+      38,
+      6059
+    ],
+    "walikReplacedGpxRange": [
+      2273,
+      2787
+    ],
+    "oldDistanceKm": 33.0902724846763,
+    "newDistanceKm": 33.52993480038226,
+    "oldStats": {
+      "up": 1293,
+      "down": 1292
+    },
+    "newStats": {
+      "up": 1324,
+      "down": 1323
+    },
+    "oldReplacedStats": {
+      "up": 454,
+      "down": 460
+    },
+    "newReplacedStats": {
+      "up": 483,
+      "down": 488
+    },
+    "heightDatumAdjustmentM": {
+      "start": -6.459020040201779,
+      "end": -2.8214811149371712
+    },
+    "walik": {
+      "method": "user screenshot trace, 15m sampling of Terrain Tiles DEM; DEM end offsets matched to recorded GPX",
+      "demOffsetsM": [
+        3.180972635079968,
+        4.909940063505701
+      ]
+    },
+    "unchanged10k": true,
+    "unchangedAlternatives": true,
+    "sourceTimeAndHealthDataRemoved": true,
+    "oldGeometrySha256": "9d12624c8c1e553fbe5d27dff88f1c54a921c0c7c4f3ebf95f53371dc2f9a437"
+  }
+}

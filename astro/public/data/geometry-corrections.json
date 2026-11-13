@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-12",
+  "screenshots": [
+    "IMG_2079.png",
+    "IMG_2080.png",
+    "IMG_2081.png"
+  ],
+  "changes": [
+    {
+      "place": "Pod Grzywacką / potok",
+      "oldIndices": [
+        206,
+        209,
+        212
+      ],
+      "junction": [
+        21.514212997063574,
+        49.57408499510331
+      ],
+      "tip": [
+        21.514267591339596,
+        49.57345999409138
+      ],
+      "removedLengthM": 139.23291532837112,
+      "evidence": "Exact reverse sequence exists in original route-10e6112a.gpx and screenshot supplied by user."
+    },
+    {
+      "place": "Grzywacka / B1",
+      "oldIndices": [
+        290,
+        291,
+        292
+      ],
+      "junction": [
+        21.531531008950772,
+        49.5737769941137
+      ],
+      "tip": [
+        21.531536204896042,
+        49.573515004155816
+      ],
+      "removedLengthM": 58.26872657118365,
+      "evidence": "Exact reverse sequence exists in original route-10e6112a.gpx and screenshot supplied by user."
+    },
+    {
+      "place": "Myscowa / Kręcisz",
+      "oldIndices": [
+        536,
+        540,
+        544
+      ],
+      "junction": [
+        21.548849002412634,
+        49.53832499946062
+      ],
+      "tip": [
+        21.5488207932204,
+        49.53786200120244
+      ],
+      "removedLengthM": 104.11406555516933,
+      "evidence": "Exact reverse sequence exists in original route-10e6112a.gpx and screenshot supplied by user."
+    }
+  ],
+  "current30kDistanceKm": 32.94438390782738,
+  "removedVertices": 16,
+  "unchanged10k": true,
+  "sourceGpx": "route-10e6112a.gpx"
+}
