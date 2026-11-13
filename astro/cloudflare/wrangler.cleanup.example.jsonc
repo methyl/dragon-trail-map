@@ -1,0 +1,7 @@
+{
+  "name": "dragon-trail-retention",
+  "main": "cleanup.worker.js",
+  "compatibility_date": "2026-11-13",
+  "triggers": { "crons": ["17 3 * * *"] },
+  "d1_databases": [{ "binding": "DB", "database_name": "dragon-trail-waitlist", "database_id": "REPLACE_WITH_REAL_D1_ID" }]
+}
