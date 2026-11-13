@@ -1,0 +1,14 @@
+{
+  "30k": {
+    "core": "68a027bdca561ec876082cd0b6e4a67fd64ce1be996f04339e17be80e534a2e2",
+    "coreLength": 6166,
+    "prefix": "6c2e2685407431435f388ceaa45cd318469dd2a84856ba852f023aabe316b448",
+    "river": "f8214d5f9ac376508bc7131277b6083dd7ae38d7ca46b4dbe494de61db20dbcc"
+  },
+  "10k": {
+    "core": "ea34e62633fa1a3879bee14b767b2611962b60a59a21b68f0607054b0cc12730",
+    "coreLength": 329,
+    "prefix": "881d5bca1b7232b72a9b1349878624eefb9d329f655a2646e3ea2a23ad4e2d64",
+    "river": "736335ba3f6af9f8e9ee7ee22f21552d18d9f7730bc2bb4d6ffd10ef081dded2"
+  }
+}
